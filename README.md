@@ -1,0 +1,3 @@
+# UITbaleVIewCell-UITextFiled
+UITbaleVIewCell+UITextFiled get UITextFile text
+UITableViewCell 含有UITextField。当有多个cell，每个cell都含有一个UITextField，如何获取UITextField的值。可以再UITextField 的didendedition是获取。当然，当cell划出界面时，如果这个cell当时含有焦点，则这个cell不会呗release，因此当退出时可以获取到活出屏幕的cell 的text。
